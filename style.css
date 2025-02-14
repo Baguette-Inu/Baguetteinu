@@ -1,0 +1,2020 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(to bottom, #fef7e0, #ffebcc);
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  padding: 20px 0;
+  border-bottom: 3px solid #e64a19;
+}
+
+.banner-img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(255, 140, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.banner-img:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background: linear-gradient(45deg, #ff5722, #ff9800);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 87, 34, 0.3);
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #e64a19, #ff5722);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 87, 34, 0.5);
+}
+
+/* Sections */
+.section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(255, 140, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.section h2 {
+  color: #ff8c00;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  margin: 20px;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/* Newsletter */
+#newsletter {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  background: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#newsletter input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#newsletter button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Social Media */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #ff8c00;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .section, #newsletter {
+    max-width: 90%;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-img {
+    max-width: 70%;
+  }
+}
+ 
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fffaf0;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background: linear-gradient(to bottom, #ff9800, #ffc107);
+  padding: 20px 0;
+}
+
+.banner-img {
+  max-width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e67e00;
+}
+
+/* Shibaguette Story */
+.shibaguette-story {
+  background-color: #fff3e0;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.logo-img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+/* Milestones */
+.milestones {
+  background: #fff8e1;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.milestones h3 {
+  color: #ff5722;
+  text-align: center;
+}
+
+/* Newsletter */
+#newsletter {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff3e0;
+  border-radius: 10px;
+}
+
+#newsletter input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#newsletter button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#newsletter button:hover {
+  background: #e64a19;
+}
+
+/* Social Media */
+.social-section {
+  text-align: center;
+  padding: 20px;
+  background: #ffe0b2;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.contract-address {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e64a19;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fef7e0; /* Soft yellow for the background */
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  background: linear-gradient(to bottom, #ff9800, #ffc107);
+  padding: 20px 0;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #ff8c00;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  display: block;
+}
+
+.logo-img {
+  width: 150px;
+  margin: 10px auto;
+}
+
+/* Navigation Buttons */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e67e00;
+}
+
+.download-button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.download-button:hover {
+  background: #e64a19;
+}
+
+/* Key Milestones Section */
+.milestones {
+  background: #fff3e0;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.milestones h3 {
+  color: #ff5722;
+  text-align: center;
+}
+
+.milestones ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.milestones li {
+  margin-bottom: 10px;
+}
+
+/* Newsletter Section */
+#newsletter {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#newsletter h2 {
+  color: #ff5722;
+}
+
+#newsletter input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#newsletter button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#newsletter button:hover {
+  background: #e64a19;
+}
+
+/* Social Media Section */
+.social-section {
+  text-align: center;
+  padding: 20px;
+  background: #ffe0b2;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.contract-address {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e64a19;
+  text-align: center;
+}
+
+/* Journey Map Section */
+.map-container {
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+}
+
+.flag {
+  position: absolute;
+  font-size: 24px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.flag:hover {
+  color: red;
+}
+
+/* Tokenomics Section */
+.tokenomics-section {
+  background-color: #fff8e1;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tokenomics-section h2 {
+  color: #ff8c00;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.tokenomics-section ul {
+  margin: 20px;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.tokenomics-section li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.tokenomics-section a {
+  color: #ff8c00;
+  text-decoration: underline;
+}
+
+.tokenomics-section a:hover {
+  color: #e67e00;
+}
+
+/* Modal Gallery */
+.gallery-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.gallery-content {
+  position: relative;
+  max-width: 600px;
+  width: 80%;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gallery-content img {
+  max-width: 100%;
+  max-height: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.gallery-description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: #e64a19;
+}
+
+.gallery-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.gallery-controls button {
+  background-color: #ff8c00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gallery-controls button:hover {
+  background-color: #e67e00;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Responsiveness */
+
+/* Styles pour les Ã©crans de tÃ©lÃ©phone */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .banner-img {
+    max-width: 100%; /* Ajuste la banniÃ¨re pour les petits Ã©crans */
+  }
+  .button-container {
+    flex-direction: column; /* Met les boutons en colonne */
+  }
+}
+
+/* Styles pour les Ã©crans d'ordinateur */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+  .banner-img {
+    max-width: 70%;
+  }
+  .button-container {
+    flex-direction: row; /* Les boutons restent en ligne */
+  }
+}
+
+body.mobile .banner-img {
+  max-width: 100%;
+}
+
+body.desktop .banner-img {
+  max-width: 70%;
+}
+/* Bouton pour remonter en haut */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none; /* MasquÃ© par dÃ©faut */
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: #e64a19;
+}
+
+
+/* Menu burger - cachÃ© par dÃ©faut */
+.burger-menu {
+  display: none; /* AffichÃ© seulement en mobile */
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.burger-menu button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Styles du menu dÃ©roulant */
+#mobile-nav {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  background: #ff8c00;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: right;
+}
+
+#mobile-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+}
+
+#mobile-nav a:hover {
+  background: #e67e00;
+}
+
+/* Afficher le menu burger en mobile */
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  
+  .button-container {
+    display: none; /* Cache les boutons classiques */
+  }
+}
+
+.burger-menu {
+  position: absolute;
+  top: 20px; /* Positionnement vertical fixe */
+  right: 20px; /* Positionnement horizontal fixe */
+  z-index: 10; /* Toujours au-dessus des autres Ã©lÃ©ments */
+}
+
+.banner-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 80px auto 20px; /* Une marge supÃ©rieure pour que le menu burger ne se superpose pas */
+}
+
+/* Ajustement de la banniÃ¨re pour Ã©viter qu'elle dÃ©passe sur mobile */
+.banner-img {
+  max-width: 100%; /* EmpÃªche le dÃ©bordement */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centre horizontalement */
+  border: 5px solid #ff8c00; /* Bordure orange */
+  border-radius: 20px; /* Coins arrondis */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* SpÃ©cifique aux petits Ã©crans (mobile) */
+@media (max-width: 768px) {
+  .banner-img {
+    width: 90%; /* RÃ©duit la taille pour mieux sâ€™adapter */
+    margin: 10px auto; /* Assure un bon centrage */
+  }
+
+  .header {
+    padding-top: 20px; /* Ajoute un peu dâ€™espace au-dessus */
+  }
+}
+
+/* Ajustement du menu burger pour Ã©viter la superposition */
+.burger-menu {
+  position: absolute;
+  top: 10px; /* Ajuster la hauteur */
+  left: 10px;
+  z-index: 1000; /* Assure qu'il est au-dessus des autres Ã©lÃ©ments */
+}
+
+/* Ajustement du header pour faire de la place au menu burger */
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    padding-top: 50px; /* Ajoute un espace en haut pour Ã©viter la superposition */
+  }
+
+  .banner-img {
+    max-width: 95%; /* Ajuste la largeur sur mobile */
+    margin-top: 20px; /* DÃ©cale la banniÃ¨re vers le bas */
+  }
+}
+
+
+/* Menu Burger */
+.burger-menu {
+  display: none; /* CachÃ© par dÃ©faut sur desktop */
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 999;
+}
+
+.burger-menu button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Style du menu mobile */
+#mobile-nav {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  background: rgba(255, 140, 0, 0.95);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+}
+
+#mobile-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+#mobile-nav a:hover {
+  background: #e67e00;
+}
+
+/* Afficher le menu burger en mode mobile */
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  
+  .button-container {
+    display: none; /* Cache les boutons classiques */
+  }
+}
+/* Optimisation du Banner */
+.banner-img {
+  display: block;
+  max-width: 80%; /* RÃ©duit la largeur du banner */
+  height: auto;
+  margin: 20px auto; /* Centre le banner */
+  border-radius: 20px; /* Coins arrondis */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Ombre subtile */
+}
+
+/* Ajustement spÃ©cifique pour Mobile */
+@media screen and (max-width: 768px) {
+  .banner-img {
+    max-width: 90%; /* Prend plus dâ€™espace mais reste centrÃ© */
+    margin-top: 10px; /* Ajuste l'espacement pour ne pas toucher le menu */
+  }
+}
+
+/* Ajustement spÃ©cifique pour Desktop */
+@media screen and (min-width: 1024px) {
+  .banner-img {
+    max-width: 60%; /* RÃ©duit un peu la taille pour Ã©viter un effet trop large */
+  }
+}
+
+/* RÃ©duire encore plus la taille de la carte sur ordinateur */
+@media screen and (min-width: 1024px) { /* S'applique uniquement aux grands Ã©crans */
+  .map-container {
+    width: 30%;  /* RÃ©duit encore plus la taille de la carte */
+    margin: 0 auto; /* Centre la carte */
+  }
+}
+
+/* Festival Page Styles */
+.festival-section,
+.festival-details,
+.mini-game-festival,
+.dao-governance,
+.cannes-first,
+.festival-impact,
+.festival-conclusion {
+  background: #fff8e1; /* Couleur de fond similaire aux autres sections */
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.festival-section h2,
+.festival-details h3,
+.mini-game-festival h3,
+.dao-governance h3,
+.cannes-first h3,
+.festival-impact h3,
+.festival-conclusion h3 {
+  color: #ff5722;
+  text-align: center;
+}
+
+.festival-section ul,
+.festival-details ul,
+.mini-game-festival ul,
+.dao-governance ul,
+.cannes-first ul,
+.festival-impact ul,
+.festival-conclusion ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.festival-section li,
+.festival-details li,
+.mini-game-festival li,
+.dao-governance li,
+.cannes-first li,
+.festival-impact li,
+.festival-conclusion li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Ajout d'un style spÃ©cifique pour les boutons */
+.festival-button {
+  display: block;
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.festival-button:hover {
+  background-color: #e67e00;
+}
+
+/* Ajout d'un style pour les sous-sections pour plus de clartÃ© */
+.festival-section h2,
+.festival-details h3,
+.mini-game-festival h3,
+.dao-governance h3,
+.cannes-first h3,
+.festival-impact h3,
+.festival-conclusion h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.festival-section p,
+.festival-details p,
+.mini-game-festival p,
+.dao-governance p,
+.cannes-first p,
+.festival-impact p,
+.festival-conclusion p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsive design pour les mobiles */
+@media screen and (max-width: 768px) {
+  .festival-section,
+  .festival-details,
+  .mini-game-festival,
+  .dao-governance,
+  .cannes-first,
+  .festival-impact,
+  .festival-conclusion {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .festival-button {
+    max-width: 100%;
+  }
+}
+
+ul {
+  list-style-type: none; /* Supprime les puces */
+  padding-left: 0; /* Supprime lâ€™indentation */
+}
+
+
+li::before {
+  content: none !important; /* EmpÃªche l'ajout automatique des puces */
+}
+
+.milestones ul {
+  display: flex;
+  flex-direction: column; /* Organise en colonne */
+  align-items: center; /* Centre horizontalement */
+  list-style: none; /* EnlÃ¨ve les puces */
+  padding: 0; /* Supprime le padding par dÃ©faut */
+} 
+
+ 
+
+/* DAO Section */
+.dao-introduction, 
+.dao-explained, 
+.dao-how-it-works, 
+.dao-voting, 
+.dao-treasury, 
+.dao-how-to-join, 
+.dao-future, 
+.dao-links, 
+.dao-conclusion {
+  background: #fff8e1; /* Fond similaire aux autres sections */
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dao-introduction h2,
+.dao-explained h2,
+.dao-how-it-works h2,
+.dao-voting h2,
+.dao-treasury h2,
+.dao-how-to-join h2,
+.dao-future h2,
+.dao-links h2,
+.dao-conclusion h2 {
+  color: #ff5722;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.dao-introduction p,
+.dao-explained p,
+.dao-how-it-works p,
+.dao-voting p,
+.dao-treasury p,
+.dao-how-to-join p,
+.dao-future p,
+.dao-links p,
+.dao-conclusion p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.dao-introduction ul,
+.dao-explained ul,
+.dao-how-it-works ul,
+.dao-voting ul,
+.dao-treasury ul,
+.dao-how-to-join ul,
+.dao-future ul,
+.dao-links ul,
+.dao-conclusion ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dao-introduction li,
+.dao-explained li,
+.dao-how-it-works li,
+.dao-voting li,
+.dao-treasury li,
+.dao-how-to-join li,
+.dao-future li,
+.dao-links li,
+.dao-conclusion li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Boutons DAO */
+.dao-button {
+  display: block;
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 250px;
+  transition: background-color 0.3s ease;
+}
+
+.dao-button:hover {
+  background-color: #e67e00;
+}
+
+/* Responsive design pour les mobiles */
+@media screen and (max-width: 768px) {
+  .dao-introduction,
+  .dao-explained,
+  .dao-how-it-works,
+  .dao-voting,
+  .dao-treasury,
+  .dao-how-to-join,
+  .dao-future,
+  .dao-links,
+  .dao-conclusion {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .dao-button {
+    max-width: 100%;
+  }
+}
+
+/* Legal Disclaimer & FAQ Section */
+.legal-section,
+.faq-section,
+.community-section {
+  background: #fff8e1; /* Couleur de fond cohÃ©rente avec les autres sections */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.legal-section h2,
+.faq-section h2,
+.community-section h2 {
+  color: #ff5722;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.legal-section h3,
+.faq-section h3 {
+  color: #ff8c00;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.legal-section ul,
+.faq-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legal-section li,
+.faq-section li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.legal-section li::before,
+.faq-section li::before {
+  content: "âœ”ï¸";
+  color: #ff5722;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Questions FAQ */
+.faq-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.faq-section p strong {
+  color: #e67e00;
+}
+
+/* Community Section */
+.community-section {
+  background: #ffebcc;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.community-section p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  background-color: #ff8c00;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .legal-section,
+  .faq-section,
+  .community-section {
+    max-width: 90%;
+    padding: 15px;
+  }
+}
+
+/* Appliquer un fond avec les silhouettes */
+body {
+  background-color: #fef7e0; /* Conserve la couleur existante */
+  background-image: url('https://i.imgur.com/saEeM5T.png'); /* Ajoute l'image de fond */
+  background-size: 200px; /* Ajuste la taille des silhouettes */
+  background-repeat: repeat; /* RÃ©pÃ¨te subtilement */
+  background-position: center; /* Centre lâ€™image pour Ã©viter les coupures */
+  background-attachment: fixed; /* Garde le fond en place lorsqu'on scroll */
+  opacity: 1; /* Garde le contenu normal */
+}
+
+/* Assurer une bonne lisibilitÃ© du contenu */
+.roadmap-section, 
+.how-to-join-section, 
+.festival-section, 
+.tokenomics-section {
+  background: rgba(255, 247, 224, 0.95); /* Fond lÃ©gÃ¨rement opaque */
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(5px); /* Ajoute un lÃ©ger flou pour mieux distinguer le texte */
+}
+
+.rights {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0.8; /* LÃ©gÃ¨rement attÃ©nuÃ© pour un rendu propre */
+}
+/* Apply the background image to the entire page */
+body {
+  background-image: url('your-image-url.jpg'); /* Replace with the correct image URL */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center top; /* Adjusts positioning */
+  background-repeat: no-repeat; /* Prevents repetition */
+  background-attachment: fixed; /* Keeps it static while scrolling */
+}
+
+/* Improve visibility and readability of content */
+.section {
+  background: rgba(255, 255, 255, 0.85); /* Light background for contrast */
+  padding: 25px;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure readability and positioning on mobile */
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts image size for small screens */
+    background-position: center center;
+  }
+
+  .section {
+    max-width: 95%; /* Ensures it fits well on smaller devices */
+    padding: 15px;
+  }
+}
+
+/* For large screens, make sure the background scales properly */
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+.section {
+  background-image: url('https://i.imgur.com/saEeM5T.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Effet lumineux et pulsation */
+@keyframes glow {
+  0% { box-shadow: 0 0 5px rgba(255, 165, 0, 0.4); }
+  50% { box-shadow: 0 0 15px rgba(255, 165, 0, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(255, 165, 0, 0.4); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+/* Styles des baguettes interactives */
+.flag {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  animation: glow 1.5s infinite alternate, float 3s infinite ease-in-out;
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+/* Effet au survol */
+.flag:hover {
+  transform: scale(1.2) rotate(-5deg);
+  filter: brightness(1.2);
+  box-shadow: 0px 0px 20px rgba(255, 165, 0, 0.9);
+}
+
+@keyframes shine {
+  0% { filter: brightness(1); transform: scale(1); }
+  50% { filter: brightness(1.5); transform: scale(1.3); }
+  100% { filter: brightness(1); transform: scale(1); }
+}
+
+/* Effet au clic */
+.flag:active {
+  animation: shine 0.5s ease-in-out;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.flag {
+  animation: wave 3s infinite ease-in-out;
+}
+
+.particle {
+  position: absolute;
+  background: rgba(255, 165, 0, 0.8);
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(255, 165, 0, 1);
+  pointer-events: none;
+  animation: fade-out 0.5s ease-out, rise 0.5s ease-out;
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes rise {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+.map-container {
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: scale(1.02);
+}
+
+.flag:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 165, 0, 0.7));
+}
+
+.map-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.map-container:hover {
+  transform: rotate(0.5deg);
+}
+ 
+#mobile-nav {
+  position: absolute;
+  top: 50px; /* Ajuste la hauteur sous le bouton */
+  left: 200px; /* Complètement collé à gauche */
+  width: 200px; /* Réduction de la largeur */
+  background: linear-gradient(to bottom, #ff9800, #ff5722);
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-150%); /* Cache le menu hors écran */
+  opacity: 0;
+  display: block; /* Laisse actif mais masqué */
+}
+
+#mobile-nav.active {
+  transform: translateX(0); /* Fait apparaître en slide */
+  opacity: 1;
+}
+
+#mobile-nav a {
+  display: block;
+  padding: 8px; /* Boutons plus petits */
+  font-size: 14px; /* Réduction du texte */
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+#mobile-nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .flag {
+    position: absolute;
+    width: 40px; /* Taille plus adaptée au mobile */
+    height: 40px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .flag:active {
+    transform: scale(1.1); /* Zoom léger au clic */
+  }
+
+  /* Animation de pulsation pour attirer l'œil */
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 200, 0, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 15px rgba(255, 200, 0, 1);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 200, 0, 0.8);
+    }
+  }
+}
+.touched {
+  transform: scale(1.2);
+  transition: transform 0.1s ease-in-out;
+}
+
+/* ---- TABLEAU TOKENOMICS ---- */
+.tokenomics-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.tokenomics-table th, .tokenomics-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tokenomics-table th {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+}
+
+.tokenomics-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.tokenomics-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* ---- ICONES DE RISQUE ET VALIDATION ---- */
+.tokenomics-table td span {
+  font-size: 18px;
+}
+
+.risk-high { color: #ff3b3b; font-weight: bold; } /* 🔴 Trop Risqué */
+.risk-moderate { color: #ff9800; font-weight: bold; } /* ⚠️ Modéré */
+.risk-good { color: #4caf50; font-weight: bold; } /* 🟢 Bon Moment */
+.risk-opportunity { color: #ff5722; font-weight: bold; } /* 🔥 Opportunité */
+
+.migration-yes { color: #4caf50; font-weight: bold; } /* ✅ Migration Possible */
+.migration-no { color: #ff3b3b; font-weight: bold; } /* ❌ Trop Tôt */
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+  .tokenomics-table th, .tokenomics-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .tokenomics-table {
+    width: 95%;
+  }
+}
+/* ---- STYLE POUR LE PREMIER TABLEAU (V1 to V2 Transition) ---- */
+.tokenomics-transition-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.tokenomics-transition-table th, .tokenomics-transition-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tokenomics-transition-table th {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tokenomics-transition-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.tokenomics-transition-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* ---- STYLE POUR LES TITRES À GAUCHE (Market Cap Level) ---- */
+.tokenomics-transition-table td:first-child {
+  font-weight: bold;
+  color: #ff8c00;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+  .tokenomics-transition-table th, .tokenomics-transition-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .tokenomics-transition-table {
+    width: 95%;
+  }
+}
+/* ---- STYLE POUR L'EN-TÊTE DU PREMIER TABLEAU ---- */
+.tokenomics-transition-table th {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border: 2px solid #ff5722; /* Bordure comme le deuxième tableau */
+}
+
+/* ---- STYLE POUR LA BORDURE DES LIGNES TITRES (1ère colonne) ---- */
+.tokenomics-transition-table td:first-child {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  border: 2px solid #ff5722;
+  padding: 12px;
+}
+
+/* ---- STYLE GLOBAL DU TABLEAU ---- */
+.tokenomics-transition-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.tokenomics-transition-table th, .tokenomics-transition-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tokenomics-transition-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.tokenomics-transition-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+  .tokenomics-transition-table th, .tokenomics-transition-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .tokenomics-transition-table {
+    width: 95%;
+  }
+}
+/* ---- STYLE GLOBAL DES TABLEAUX ---- */
+.tokenomics-transition-table,
+.tokenomics-migration-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* ---- STYLE DES EN-TÊTES (MÊME STYLE QUE LE SECOND TABLEAU) ---- */
+.tokenomics-transition-table th,
+.tokenomics-migration-table th {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border: 2px solid #ff5722; /* Bordure identique */
+}
+
+/* ---- STYLE DES CELLULES ---- */
+.tokenomics-transition-table td,
+.tokenomics-migration-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ---- PREMIÈRE COLONNE (Market Cap, etc.) ---- */
+.tokenomics-transition-table td:first-child,
+.tokenomics-migration-table td:first-child {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  border: 2px solid #ff5722;
+  padding: 12px;
+}
+
+/* ---- ALTERNANCE DE COULEUR (ZÉBRÉ) ---- */
+.tokenomics-transition-table tr:nth-child(even),
+.tokenomics-migration-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ---- EFFET HOVER ---- */
+.tokenomics-transition-table tr:hover,
+.tokenomics-migration-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+  .tokenomics-transition-table th, .tokenomics-transition-table td,
+  .tokenomics-migration-table th, .tokenomics-migration-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .tokenomics-transition-table,
+  .tokenomics-migration-table {
+    width: 95%;
+  }
+}
+/* ---- STYLE UNIFORMISÉ POUR LES DEUX TABLEAUX ---- */
+.tokenomics-transition-table,
+.tokenomics-migration-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* ---- STYLE DES TITRES (POUR LES DEUX TABLEAUX) ---- */
+.tokenomics-transition-table thead tr,
+.tokenomics-migration-table thead tr {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #ff5722;
+}
+
+/* ---- STYLE DES CELLULES ---- */
+.tokenomics-transition-table th, 
+.tokenomics-transition-table td,
+.tokenomics-migration-table th,
+.tokenomics-migration-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ---- PREMIÈRE LIGNE (TITRES DE COLONNES) ---- */
+.tokenomics-transition-table thead th,
+.tokenomics-migration-table thead th {
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border: 2px solid #ff5722;
+}
+
+/* ---- PREMIÈRE COLONNE (CATEGORIE) ---- */
+.tokenomics-transition-table td:first-child,
+.tokenomics-migration-table td:first-child {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background: linear-gradient(45deg, #ff8c00, #ff5722);
+  border: 2px solid #ff5722;
+  padding: 12px;
+}
+
+/* ---- ALTERNANCE DE COULEURS (ZÉBRÉ) ---- */
+.tokenomics-transition-table tbody tr:nth-child(even),
+.tokenomics-migration-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ---- EFFET HOVER ---- */
+.tokenomics-transition-table tbody tr:hover,
+.tokenomics-migration-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+  .tokenomics-transition-table th, .tokenomics-transition-table td,
+  .tokenomics-migration-table th, .tokenomics-migration-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .tokenomics-transition-table,
+  .tokenomics-migration-table {
+    width: 95%;
+  }
+}
+/* Style du premier tableau pour qu'il ressemble au second */
+.table-v1-v2 {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff7e6; /* Même fond que le deuxième tableau */
+    border-radius: 10px;
+    overflow: hidden; /* Pour arrondir les bords */
+    margin-bottom: 20px;
+}
+
+/* Style de l'en-tête du premier tableau */
+.table-v1-v2 th {
+    background: #ff8c1a; /* Orange vif, même que le second */
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #ff6600; /* Bordure orange pour uniformiser */
+}
+
+/* Style des cellules */
+.table-v1-v2 td {
+    padding: 10px;
+    border: 1px solid #ffcc99; /* Bordure douce comme le deuxième */
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Bordures arrondies du tableau */
+.table-container {
+    background: #fff7e6;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* ---- STYLE GLOBAL UNIFORMISÉ POUR LES DEUX TABLEAUX ---- */
+.tokenomics-transition-table,
+.tokenomics-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+    background: rgba(255, 247, 224, 0.95); /* Fond identique */
+    backdrop-filter: blur(5px);
+}
+
+/* ---- STYLE DE L'EN-TÊTE (MÊME STYLE QUE LE SECOND TABLEAU) ---- */
+.tokenomics-transition-table th,
+.tokenomics-table th {
+    background: linear-gradient(45deg, #ff8c00, #ff5722);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid #ff5722; /* Bordure identique */
+}
+
+/* ---- STYLE DES CELLULES ---- */
+.tokenomics-transition-table th, 
+.tokenomics-transition-table td,
+.tokenomics-table th,
+.tokenomics-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ---- PREMIÈRE COLONNE (CATEGORIE) ---- */
+.tokenomics-transition-table td:first-child,
+.tokenomics-table td:first-child {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, #ff8c00, #ff5722);
+    border: 2px solid #ff5722;
+    padding: 12px;
+}
+
+/* ---- ALTERNANCE DE COULEURS (ZÉBRÉ) ---- */
+.tokenomics-transition-table tbody tr:nth-child(even),
+.tokenomics-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ---- EFFET HOVER ---- */
+.tokenomics-transition-table tbody tr:hover,
+.tokenomics-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: 0.3s ease-in-out;
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 768px) {
+    .tokenomics-transition-table th, .tokenomics-transition-table td,
+    .tokenomics-table th, .tokenomics-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .tokenomics-transition-table,
+    .tokenomics-table {
+        width: 95%;
+    }
+}
+/* 📱 Rendre les tableaux responsive */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
+}
+
+.tokenomics-transition-table,
+.tokenomics-table {
+    width: 100%;
+    max-width: none; /* Supprime la largeur max */
+    min-width: 700px; /* Empêche que le tableau soit trop serré */
+    display: block;
+    overflow-x: auto; /* Active le défilement horizontal */
+}
+
+/* 📱 Optimisation pour mobile */
+@media screen and (max-width: 768px) {
+    .table-container {
+        overflow-x: auto; /* Ajoute un scroll horizontal sur mobile */
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .tokenomics-transition-table,
+    .tokenomics-table {
+        width: 100%;
+        min-width: 700px; /* Garantit un affichage correct même si l'écran est étroit */
+    }
+}
+/* 📱 Ajustement du tableau pour qu'il ne déborde pas */
+.table-container {
+    width: 100%;
+    max-width: 100%; /* Empêche le débordement */
+    overflow-x: auto; /* Active le scroll horizontal si nécessaire */
+    padding: 10px 0; /* Ajoute de l'espace pour éviter l'effet visuel de débordement */
+    margin: 0 auto; /* Centre le tableau proprement */
+}
+
+/* 📱 Fixe les tableaux qui débordent sur mobile */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
+  margin: 0 auto;
+  padding-bottom: 10px; /* Espace pour éviter que le bouton soit caché */
+}
+
+.tokenomics-transition-table,
+.tokenomics-table {
+  width: 100%;
+  min-width: 700px; /* Empêche que le tableau soit trop serré */
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+/* Ajuste les colonnes pour éviter que le texte déborde */
+.tokenomics-transition-table th,
+.tokenomics-transition-table td,
+.tokenomics-table th,
+.tokenomics-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap; /* Empêche les colonnes de prendre trop de place */
+}
+
+/* 📱 Ajustement pour téléphone */
+@media screen and (max-width: 768px) {
+  .table-container {
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .tokenomics-transition-table,
+  .tokenomics-table {
+    width: 100%;
+    min-width: 600px; /* Force le scroll horizontal si besoin */
+  }
+}
+/* 📱 Empêcher le débordement du tableau */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Permet le scroll horizontal uniquement si nécessaire */
+  display: block;
+  padding-bottom: 10px; /* Espace pour éviter que le bouton soit caché */
+}
+
+/* 🎯 Empêcher le tableau de dépasser la largeur de l’écran */
+.tokenomics-transition-table,
+.tokenomics-table {
+  width: 100%;
+  max-width: 100%; /* Force le tableau à ne jamais dépasser l’écran */
+  table-layout: fixed; /* Force un équilibrage automatique des colonnes */
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+/* 📝 Ajustement des colonnes */
+.tokenomics-transition-table th,
+.tokenomics-transition-table td,
+.tokenomics-table th,
+.tokenomics-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap; /* Empêche le texte de forcer l’agrandissement */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Coupe le texte s'il est trop long */
+}
+
+/* 📱 Ajustement spécifique pour mobile */
+@media screen and (max-width: 768px) {
+  /* On force le défilement horizontal */
+  .table-container {
+    overflow-x: scroll; /* Permet le scroll horizontal si besoin */
+  }
+
+  .tokenomics-transition-table,
+  .tokenomics-table {
+    min-width: 600px; /* On force un minimum pour éviter que le tableau soit trop petit */
+  }
+}
+
+/* 🚀 Empêcher le body de s'agrandir à cause du tableau */
+body {
+  overflow-x: hidden; /* Empêche la page de devenir trop large */
+}
+/* Forcer le tableau à occuper toute la largeur disponible */
+.tokenomics-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto; /* Centre le tableau */
+}
+
+/* Supprimer tout padding/margin autour du conteneur */
+.table-container {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
+  display: block;
+}
+
+/* Supprimer les marges inutiles */
+body, html {
+  overflow-x: hidden; /* Évite l'extension de la page */
+  margin: 0;
+  padding: 0;
+}
+ 

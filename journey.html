@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Shibaguette Inu's Tour</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1>🌍 Discover Shibaguette Inu's Journey</h1>
+    <a href="index.html" class="button">Back to Home</a>
+  </header>
+
+  <!-- Map Section -->
+  <main>
+    <section id="map-container">
+      <h2 class="map-title">Shibaguette Inu's Tour de France 🥖</h2>
+      <div class="map-container">
+        <img src="https://i.imgur.com/NjsAZEa.png" alt="France Map" class="map-image">
+
+        <!-- Interactive Baguettes -->
+        <span class="flag" style="top: 28%; left: 52%;" onclick="showGallery('paris')">🥖</span>
+        <span class="flag" style="top: 55%; left: 68%;" onclick="showGallery('lyon')">🥖</span>
+        <span class="flag" style="top: 82%; left: 46%;" onclick="showGallery('toulouse')">🥖</span>
+        <span class="flag" style="top: 70%; left: 36%;" onclick="showGallery('bordeaux')">🥖</span>
+        <span class="flag" style="top: 80%; left: 83%;" onclick="showGallery('nice')">🥖</span>
+        <span class="flag" style="top: 80%; left: 67%;" onclick="showGallery('marseille')">🥖</span>
+      </div>
+    </section>
+
+    <!-- New Explanatory Section -->
+    <section class="journey-explainer">
+      <h2>📍 Shibaguette Inu's Journey: A Web3 Adventure Across France & Beyond! 🥖</h2>
+      <p>
+        Shibaguette Inu is on a mission—exploring the most iconic locations across France before taking its cultural and Web3 revolution worldwide! 🌍  
+        Each stop in the journey is a community-driven adventure, where memes, NFTs, mini-games, and collectibles bring Shibaguette Inu’s story to life.  
+        As the journey unfolds, <strong>YOU—the community—will decide where Shibaguette Inu travels next through DAO voting!</strong> 🗳️
+      </p>
+
+      <h3>🔹 Explore, Collect & Participate!</h3>
+      <ul>
+        <li>✅ Step into Shibaguette Inu’s world with interactive storytelling & digital collectibles.</li>
+        <li>✅ Unlock unique NFTs inspired by each city and its cultural symbols.</li>
+        <li>✅ Play festival-exclusive mini-games themed around each destination.</li>
+        <li>✅ Vote on where Shibaguette Inu travels next—Paris is just the beginning!</li>
+      </ul>
+      <p class="disclaimer">
+        📌 <strong>Disclaimer:</strong> All in-game collectibles and NFTs are for entertainment and community engagement.  
+        Play-to-Earn mechanics and staking features will only launch once fully compliant with regulations.
+      </p>
+
+      <h3>🌟 From Paris to the World: The Community Decides!</h3>
+      <ul>
+        <li>🏛️ <strong>Phase 1:</strong> Paris—The Birthplace of Shibaguette Inu</li>
+        <li>🎨 <strong>Phase 2:</strong> Cultural & Web3 Expansion Across France</li>
+        <li>✈️ <strong>Phase 3:</strong> DAO-Voted Global Destinations</li>
+      </ul>
+      <p>
+        🚀 Follow the journey, participate in the adventure, and help shape the next chapter of Shibaguette Inu! 🎭🥖  
+      </p>
+    </section>
+
+    <!-- Modal for Image Gallery -->
+    <div id="gallery-modal" class="gallery-modal" style="display: none;">
+      <div class="gallery-content">
+        <button id="close-btn" class="close-button">✖</button>
+        <img id="gallery-image" src="" alt="Gallery Image" style="display: none;">
+        <p id="gallery-description" style="display: none;"></p>
+        <p id="gallery-message" style="display: none;">🚧 Stay Tuned: This journey starts soon!</p>
+        <div class="gallery-controls">
+          <button id="prev-btn">⬅</button>
+          <button id="next-btn">➡</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>🍞 Join the crispy revolution today with Shibaguette Inu! 🥖</p>
+    <div class="social-icons">
+      <a href="https://telegram.org" target="_blank">
+        <img src="https://i.imgur.com/HlH0F5n.jpeg" alt="Telegram Logo">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://i.imgur.com/Mwqw83E.png" alt="Instagram Logo">
+      </a>
+      <a href="https://tiktok.com" target="_blank">
+        <img src="https://i.imgur.com/hKYqpBB.png" alt="TikTok Logo">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="https://i.imgur.com/BrfntS9.png" alt="X Logo">
+      </a>
+      <a href="https://dexscreener.com" target="_blank">
+        <img src="https://i.imgur.com/ctx7UNV.png" alt="Dex Logo">
+      </a>
+    </div>
+    <p class="contract-address">
+      Contract Address (DYOR): <span>0x1234567890abcdef1234567890abcdef12345678</span>
+    </p>
+    <p class="rights">© 2025 Baguette Inu - All rights reserved 🥖</p>
+  </footer>
+
+  <!-- Bouton Scroll To Top -->
+<button id="scrollToTop" class="scroll-to-top">↑ </button>
+
+<script>
+  // Gérer l'affichage du bouton "Remonter en haut"
+  const scrollToTopButton = document.getElementById('scrollToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      scrollToTopButton.style.display = 'block';
+    } else {
+      scrollToTopButton.style.display = 'none';
+    }
+  });
+
+  // Ajouter la fonction pour remonter en haut
+  scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
+  

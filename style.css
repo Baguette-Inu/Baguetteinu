@@ -1481,14 +1481,14 @@ body {
 /* Style général du conteneur */
 .tokenomics-table {
     width: 80%;
-    max-width: 600px; /* Taille réduite */
+    max-width: 600px;
     margin: 20px auto;
     padding: 10px;
-    background-color: #fdf0d5; /* Harmonisé avec le fond */
+    background-color: #fdf0d5;
     border-radius: 8px;
 }
 
-/* Titre du tableau */
+/* Titre */
 .tokenomics-table h3 {
     text-align: center;
     font-size: 18px;
@@ -1496,20 +1496,20 @@ body {
     font-weight: bold;
 }
 
-/* Style du tableau */
+/* Table */
 .tokenomics-table table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 14px; /* Texte légèrement réduit */
+    font-size: 14px;
 }
 
-/* En-tête du tableau */
+/* En-tête */
 .tokenomics-table thead {
     background-color: #e67e22;
     color: white;
 }
 
-/* Style des cellules */
+/* Cellules */
 .tokenomics-table th, 
 .tokenomics-table td {
     border: 1px solid #d7a36e;
@@ -1517,7 +1517,7 @@ body {
     text-align: center;
 }
 
-/* Style des lignes */
+/* Lignes alternées */
 .tokenomics-table tbody tr:nth-child(odd) {
     background-color: #f8e4c8;
 }
@@ -1531,24 +1531,31 @@ body {
     font-weight: bold;
 }
 
-/* 📱 Responsive pour mobile (écran < 600px) */
+/* 📱 Responsive - Optimisation pour écran mobile */
 @media screen and (max-width: 600px) {
     .tokenomics-table {
-        width: 90%; /* Réduit encore plus la largeur */
-        max-width: 300px; /* Deux fois plus petit sur mobile */
-        padding: 8px;
+        width: 100%;
+        max-width: 320px; /* Encore plus petit pour mobile */
+        padding: 5px;
     }
-    
+
     .tokenomics-table h3 {
-        font-size: 16px; /* Réduction du titre */
+        font-size: 14px; /* Réduction de la taille du titre */
     }
 
     .tokenomics-table table {
-        font-size: 12px; /* Texte plus petit */
+        font-size: 10px; /* Réduction du texte pour que tout rentre */
     }
 
     .tokenomics-table th, 
     .tokenomics-table td {
-        padding: 5px; /* Moins d’espace dans les cellules */
+        padding: 5px;
+    }
+
+    /* Activation du scroll horizontal sur mobile */
+    .tokenomics-table {
+        overflow-x: auto;
+        display: block;
     }
 }
+

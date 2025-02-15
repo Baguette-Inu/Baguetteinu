@@ -2030,4 +2030,57 @@ iframe {
     }
 }
 
+/* Style général du conteneur */
+.tokenomics-table {
+    width: 80%;
+    max-width: 600px; /* Réduit la largeur */
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fdf0d5; /* Même fond que le reste du site */
+    border-radius: 8px;
+    box-shadow: none; /* Supprime l'effet de surbrillance */
+}
+
+/* Titre du tableau */
+.tokenomics-table h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style du tableau */
+.tokenomics-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px; /* Texte légèrement réduit */
+}
+
+/* En-tête du tableau */
+.tokenomics-table thead {
+    background-color: #e67e22; /* Orange pour rester dans le thème */
+    color: white;
+}
+
+/* Style des cellules */
+.tokenomics-table th, 
+.tokenomics-table td {
+    border: 1px solid #d7a36e; /* Bordure plus douce */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style des lignes */
+.tokenomics-table tbody tr:nth-child(odd) {
+    background-color: #f8e4c8; /* Alternance légère */
+}
+
+.tokenomics-table tbody tr:nth-child(even) {
+    background-color: #fdf0d5; /* Même fond que le reste */
+}
+
+/* Icônes dans la colonne Risk Level */
+.tokenomics-table td:nth-child(4) {
+    font-weight: bold;
+}
  

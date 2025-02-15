@@ -1478,567 +1478,14 @@ body {
 .migration-yes { color: #4caf50; font-weight: bold; } /* ✅ Migration Possible */
 .migration-no { color: #ff3b3b; font-weight: bold; } /* ❌ Trop Tôt */
 
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-  .tokenomics-table th, .tokenomics-table td {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .tokenomics-table {
-    width: 95%;
-  }
-}
-/* ---- STYLE POUR LE PREMIER TABLEAU (V1 to V2 Transition) ---- */
-.tokenomics-transition-table {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-  border-collapse: collapse;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-}
-
-.tokenomics-transition-table th, .tokenomics-transition-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.tokenomics-transition-table th {
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-
-.tokenomics-transition-table tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-.tokenomics-transition-table tr:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  transition: 0.3s ease-in-out;
-}
-
-/* ---- STYLE POUR LES TITRES À GAUCHE (Market Cap Level) ---- */
-.tokenomics-transition-table td:first-child {
-  font-weight: bold;
-  color: #ff8c00;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.05);
-}
-
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-  .tokenomics-transition-table th, .tokenomics-transition-table td {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .tokenomics-transition-table {
-    width: 95%;
-  }
-}
-/* ---- STYLE POUR L'EN-TÊTE DU PREMIER TABLEAU ---- */
-.tokenomics-transition-table th {
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 12px;
-  border: 2px solid #ff5722; /* Bordure comme le deuxième tableau */
-}
-
-/* ---- STYLE POUR LA BORDURE DES LIGNES TITRES (1ère colonne) ---- */
-.tokenomics-transition-table td:first-child {
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  border: 2px solid #ff5722;
-  padding: 12px;
-}
-
-/* ---- STYLE GLOBAL DU TABLEAU ---- */
-.tokenomics-transition-table {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-  border-collapse: collapse;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-}
-
-.tokenomics-transition-table th, .tokenomics-transition-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.tokenomics-transition-table tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-.tokenomics-transition-table tr:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  transition: 0.3s ease-in-out;
-}
-
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-  .tokenomics-transition-table th, .tokenomics-transition-table td {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .tokenomics-transition-table {
-    width: 95%;
-  }
-}
-/* ---- STYLE GLOBAL DES TABLEAUX ---- */
-.tokenomics-transition-table,
-.tokenomics-migration-table {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-  border-collapse: collapse;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-}
-
-/* ---- STYLE DES EN-TÊTES (MÊME STYLE QUE LE SECOND TABLEAU) ---- */
-.tokenomics-transition-table th,
-.tokenomics-migration-table th {
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 12px;
-  border: 2px solid #ff5722; /* Bordure identique */
-}
-
-/* ---- STYLE DES CELLULES ---- */
-.tokenomics-transition-table td,
-.tokenomics-migration-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* ---- PREMIÈRE COLONNE (Market Cap, etc.) ---- */
-.tokenomics-transition-table td:first-child,
-.tokenomics-migration-table td:first-child {
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  border: 2px solid #ff5722;
-  padding: 12px;
-}
-
-/* ---- ALTERNANCE DE COULEUR (ZÉBRÉ) ---- */
-.tokenomics-transition-table tr:nth-child(even),
-.tokenomics-migration-table tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-/* ---- EFFET HOVER ---- */
-.tokenomics-transition-table tr:hover,
-.tokenomics-migration-table tr:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  transition: 0.3s ease-in-out;
-}
-
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-  .tokenomics-transition-table th, .tokenomics-transition-table td,
-  .tokenomics-migration-table th, .tokenomics-migration-table td {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .tokenomics-transition-table,
-  .tokenomics-migration-table {
-    width: 95%;
-  }
-}
-/* ---- STYLE UNIFORMISÉ POUR LES DEUX TABLEAUX ---- */
-.tokenomics-transition-table,
-.tokenomics-migration-table {
-  width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
-  border-collapse: collapse;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-}
-
-/* ---- STYLE DES TITRES (POUR LES DEUX TABLEAUX) ---- */
-.tokenomics-transition-table thead tr,
-.tokenomics-migration-table thead tr {
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid #ff5722;
-}
-
-/* ---- STYLE DES CELLULES ---- */
-.tokenomics-transition-table th, 
-.tokenomics-transition-table td,
-.tokenomics-migration-table th,
-.tokenomics-migration-table td {
-  padding: 12px;
-  text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* ---- PREMIÈRE LIGNE (TITRES DE COLONNES) ---- */
-.tokenomics-transition-table thead th,
-.tokenomics-migration-table thead th {
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 12px;
-  border: 2px solid #ff5722;
-}
-
-/* ---- PREMIÈRE COLONNE (CATEGORIE) ---- */
-.tokenomics-transition-table td:first-child,
-.tokenomics-migration-table td:first-child {
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  background: linear-gradient(45deg, #ff8c00, #ff5722);
-  border: 2px solid #ff5722;
-  padding: 12px;
-}
-
-/* ---- ALTERNANCE DE COULEURS (ZÉBRÉ) ---- */
-.tokenomics-transition-table tbody tr:nth-child(even),
-.tokenomics-migration-table tbody tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-/* ---- EFFET HOVER ---- */
-.tokenomics-transition-table tbody tr:hover,
-.tokenomics-migration-table tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  transition: 0.3s ease-in-out;
-}
-
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-  .tokenomics-transition-table th, .tokenomics-transition-table td,
-  .tokenomics-migration-table th, .tokenomics-migration-table td {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .tokenomics-transition-table,
-  .tokenomics-migration-table {
-    width: 95%;
-  }
-}
-/* Style du premier tableau pour qu'il ressemble au second */
-.table-v1-v2 {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff7e6; /* Même fond que le deuxième tableau */
-    border-radius: 10px;
-    overflow: hidden; /* Pour arrondir les bords */
-    margin-bottom: 20px;
-}
-
-/* Style de l'en-tête du premier tableau */
-.table-v1-v2 th {
-    background: #ff8c1a; /* Orange vif, même que le second */
-    color: white;
-    padding: 12px;
-    font-weight: bold;
-    text-align: left;
-    border: 1px solid #ff6600; /* Bordure orange pour uniformiser */
-}
-
-/* Style des cellules */
-.table-v1-v2 td {
-    padding: 10px;
-    border: 1px solid #ffcc99; /* Bordure douce comme le deuxième */
-    text-align: left;
-    font-size: 14px;
-}
-
-/* Bordures arrondies du tableau */
-.table-container {
-    background: #fff7e6;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-/* ---- STYLE GLOBAL UNIFORMISÉ POUR LES DEUX TABLEAUX ---- */
-.tokenomics-transition-table,
-.tokenomics-table {
-    width: 100%;
-    max-width: 900px;
-    margin: 20px auto;
-    border-collapse: collapse;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-    background: rgba(255, 247, 224, 0.95); /* Fond identique */
-    backdrop-filter: blur(5px);
-}
-
-/* ---- STYLE DE L'EN-TÊTE (MÊME STYLE QUE LE SECOND TABLEAU) ---- */
-.tokenomics-transition-table th,
-.tokenomics-table th {
-    background: linear-gradient(45deg, #ff8c00, #ff5722);
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px;
-    border: 2px solid #ff5722; /* Bordure identique */
-}
-
-/* ---- STYLE DES CELLULES ---- */
-.tokenomics-transition-table th, 
-.tokenomics-transition-table td,
-.tokenomics-table th,
-.tokenomics-table td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* ---- PREMIÈRE COLONNE (CATEGORIE) ---- */
-.tokenomics-transition-table td:first-child,
-.tokenomics-table td:first-child {
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    background: linear-gradient(45deg, #ff8c00, #ff5722);
-    border: 2px solid #ff5722;
-    padding: 12px;
-}
-
-/* ---- ALTERNANCE DE COULEURS (ZÉBRÉ) ---- */
-.tokenomics-transition-table tbody tr:nth-child(even),
-.tokenomics-table tbody tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.08);
-}
-
-/* ---- EFFET HOVER ---- */
-.tokenomics-transition-table tbody tr:hover,
-.tokenomics-table tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    transition: 0.3s ease-in-out;
-}
-
-/* ---- RESPONSIVE ---- */
-@media screen and (max-width: 768px) {
-    .tokenomics-transition-table th, .tokenomics-transition-table td,
-    .tokenomics-table th, .tokenomics-table td {
-        padding: 8px;
-        font-size: 14px;
-    }
-
-    .tokenomics-transition-table,
-    .tokenomics-table {
-        width: 95%;
-    }
-}
-/* 📱 Rendre les tableaux responsive */
-.table-container {
-    width: 100%;
-    overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
-}
-
-.tokenomics-transition-table,
-.tokenomics-table {
-    width: 100%;
-    max-width: none; /* Supprime la largeur max */
-    min-width: 700px; /* Empêche que le tableau soit trop serré */
-    display: block;
-    overflow-x: auto; /* Active le défilement horizontal */
-}
-
-/* 📱 Optimisation pour mobile */
-@media screen and (max-width: 768px) {
-    .table-container {
-        overflow-x: auto; /* Ajoute un scroll horizontal sur mobile */
-        display: block;
-        padding-bottom: 10px;
-    }
-
-    .tokenomics-transition-table,
-    .tokenomics-table {
-        width: 100%;
-        min-width: 700px; /* Garantit un affichage correct même si l'écran est étroit */
-    }
-}
-/* 📱 Ajustement du tableau pour qu'il ne déborde pas */
-.table-container {
-    width: 100%;
-    max-width: 100%; /* Empêche le débordement */
-    overflow-x: auto; /* Active le scroll horizontal si nécessaire */
-    padding: 10px 0; /* Ajoute de l'espace pour éviter l'effet visuel de débordement */
-    margin: 0 auto; /* Centre le tableau proprement */
-}
-
-/* 📱 Fixe les tableaux qui débordent sur mobile */
-.table-container {
-  width: 100%;
-  overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
-  margin: 0 auto;
-  padding-bottom: 10px; /* Espace pour éviter que le bouton soit caché */
-}
-
-.tokenomics-transition-table,
-.tokenomics-table {
-  width: 100%;
-  min-width: 700px; /* Empêche que le tableau soit trop serré */
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  backdrop-filter: blur(5px);
-}
-
-/* Ajuste les colonnes pour éviter que le texte déborde */
-.tokenomics-transition-table th,
-.tokenomics-transition-table td,
-.tokenomics-table th,
-.tokenomics-table td {
-  padding: 12px;
-  text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  white-space: nowrap; /* Empêche les colonnes de prendre trop de place */
-}
-
-/* 📱 Ajustement pour téléphone */
-@media screen and (max-width: 768px) {
-  .table-container {
-    width: 100%;
-    overflow-x: scroll;
-  }
-
-  .tokenomics-transition-table,
-  .tokenomics-table {
-    width: 100%;
-    min-width: 600px; /* Force le scroll horizontal si besoin */
-  }
-}
-/* 📱 Empêcher le débordement du tableau */
-.table-container {
-  width: 100%;
-  overflow-x: auto; /* Permet le scroll horizontal uniquement si nécessaire */
-  display: block;
-  padding-bottom: 10px; /* Espace pour éviter que le bouton soit caché */
-}
-
-/* 🎯 Empêcher le tableau de dépasser la largeur de l’écran */
-.tokenomics-transition-table,
-.tokenomics-table {
-  width: 100%;
-  max-width: 100%; /* Force le tableau à ne jamais dépasser l’écran */
-  table-layout: fixed; /* Force un équilibrage automatique des colonnes */
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.3);
-  backdrop-filter: blur(5px);
-}
-
-/* 📝 Ajustement des colonnes */
-.tokenomics-transition-table th,
-.tokenomics-transition-table td,
-.tokenomics-table th,
-.tokenomics-table td {
-  padding: 12px;
-  text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  white-space: nowrap; /* Empêche le texte de forcer l’agrandissement */
-  overflow: hidden;
-  text-overflow: ellipsis; /* Coupe le texte s'il est trop long */
-}
-
-/* 📱 Ajustement spécifique pour mobile */
-@media screen and (max-width: 768px) {
-  /* On force le défilement horizontal */
-  .table-container {
-    overflow-x: scroll; /* Permet le scroll horizontal si besoin */
-  }
-
-  .tokenomics-transition-table,
-  .tokenomics-table {
-    min-width: 600px; /* On force un minimum pour éviter que le tableau soit trop petit */
-  }
-}
-
-/* 🚀 Empêcher le body de s'agrandir à cause du tableau */
-body {
-  overflow-x: hidden; /* Empêche la page de devenir trop large */
-}
-/* Forcer le tableau à occuper toute la largeur disponible */
-.tokenomics-table {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 auto; /* Centre le tableau */
-}
-
-/* Supprimer tout padding/margin autour du conteneur */
-.table-container {
-  width: 100% !important;
-  padding: 0 !important;
-  margin: 0 auto !important;
-  overflow-x: auto; /* Permet le scroll horizontal si nécessaire */
-  display: block;
-}
-
-/* Supprimer les marges inutiles */
-body, html {
-  overflow-x: hidden; /* Évite l'extension de la page */
-  margin: 0;
-  padding: 0;
-}
-
-iframe {
-    width: 100%;
-    height: 80vh; /* Ajuste la hauteur pour mobile */
-    max-height: 600px;
-}
-
-@media screen and (max-width: 768px) {
-    iframe {
-        height: 90vh; /* Sur mobile, le jeu prend plus de place */
-    }
-}
-
 /* Style général du conteneur */
 .tokenomics-table {
     width: 80%;
-    max-width: 600px; /* Réduit la largeur */
+    max-width: 600px; /* Taille réduite */
     margin: 20px auto;
-    padding: 15px;
-    background-color: #fdf0d5; /* Même fond que le reste du site */
+    padding: 10px;
+    background-color: #fdf0d5; /* Harmonisé avec le fond */
     border-radius: 8px;
-    box-shadow: none; /* Supprime l'effet de surbrillance */
 }
 
 /* Titre du tableau */
@@ -2058,29 +1505,50 @@ iframe {
 
 /* En-tête du tableau */
 .tokenomics-table thead {
-    background-color: #e67e22; /* Orange pour rester dans le thème */
+    background-color: #e67e22;
     color: white;
 }
 
 /* Style des cellules */
 .tokenomics-table th, 
 .tokenomics-table td {
-    border: 1px solid #d7a36e; /* Bordure plus douce */
+    border: 1px solid #d7a36e;
     padding: 8px;
     text-align: center;
 }
 
 /* Style des lignes */
 .tokenomics-table tbody tr:nth-child(odd) {
-    background-color: #f8e4c8; /* Alternance légère */
+    background-color: #f8e4c8;
 }
 
 .tokenomics-table tbody tr:nth-child(even) {
-    background-color: #fdf0d5; /* Même fond que le reste */
+    background-color: #fdf0d5;
 }
 
-/* Icônes dans la colonne Risk Level */
+/* Icônes Risk Level */
 .tokenomics-table td:nth-child(4) {
     font-weight: bold;
 }
- 
+
+/* 📱 Responsive pour mobile (écran < 600px) */
+@media screen and (max-width: 600px) {
+    .tokenomics-table {
+        width: 90%; /* Réduit encore plus la largeur */
+        max-width: 300px; /* Deux fois plus petit sur mobile */
+        padding: 8px;
+    }
+    
+    .tokenomics-table h3 {
+        font-size: 16px; /* Réduction du titre */
+    }
+
+    .tokenomics-table table {
+        font-size: 12px; /* Texte plus petit */
+    }
+
+    .tokenomics-table th, 
+    .tokenomics-table td {
+        padding: 5px; /* Moins d’espace dans les cellules */
+    }
+}
